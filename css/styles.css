@@ -254,3 +254,71 @@ nav{
   transform: translate(-50%, 10%);
 }
 /* end of circle design  */
+/* footer section */
+footer{
+  margin-top: 200px;
+  font-size: 32px;
+  text-align: center;
+  color: aqua;
+}
+/* end of footer section */
+/* start of mobile design  */
+@media (max-width:700px){
+  nav img{
+    width: 50px;
+    text-align: center;
+  }
+
+  .navbar ul li{
+    width: 0%;
+  }
+  .navbar ul li a{
+    color: #60992D;     
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .navbar ul li{
+    display: block;
+    font-size: 12px;
+  }
+  .navbar ul li:nth-child(5){
+    display: none;
+  }
+  .navbar ul li:nth-child(6){
+    display: none;
+  }
+  .card-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(71, 145, 129, 0.1);
+    transition: transform 0.8s;
+  }
+  
+  .main{
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+/* end of mobile design  */
+/* i dont know why i had to write this in order to get my font size for mobile version  */
+@media (min-width:700px){
+  .navbar ul li a{
+    color: #60992D;     
+    text-decoration: none;
+    font-size: 36px;
+  }
+}
