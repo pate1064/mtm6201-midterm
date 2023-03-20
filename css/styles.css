@@ -259,11 +259,11 @@ footer{
   margin-top: 200px;
   font-size: 32px;
   text-align: center;
-  color: aqua;
+  color: #027075;
 }
 /* end of footer section */
 /* start of mobile design  */
-@media (max-width:700px){
+@media (max-width:720px){
   nav img{
     width: 50px;
     text-align: center;
@@ -312,10 +312,13 @@ footer{
     align-items: center;
     justify-content: space-around;
   }
+  footer{
+    font-size: 20px;
+  }
 }
 /* end of mobile design  */
 /* i dont know why i had to write this in order to get my font size for mobile version  */
-@media (min-width:700px){
+@media (min-width:720px){
   .navbar ul li a{
     color: #60992D;     
     text-decoration: none;
