@@ -218,7 +218,7 @@ nav{
 }
 
 .btn-btn{
-  background-color: #9B1D20  ;
+  background-color: #9B1D20;
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -264,9 +264,17 @@ footer{
 /* end of footer section */
 /* start of mobile design  */
 @media (max-width:720px){
+  nav{
+    display: block;
+    margin-left: 150px;
+  }
+  nav .logo{
+    margin-left: 42px;
+  }
   nav img{
     width: 50px;
     text-align: center;
+    margin: auto;
   }
 
   .navbar ul li{
@@ -314,6 +322,9 @@ footer{
   }
   footer{
     font-size: 20px;
+  }
+  header {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 /* end of mobile design  */

@@ -28,7 +28,11 @@
     <main>
       <section class="about">
           <div class="main">
-            <img src="img/person.jpg" alt="Image">
+            <picture>
+              <source media="(max-width:720px)" srcset="img/person-720_x_480.jpg, img/person-1440_x_960.jpg 2x, img/person_3.jpg 3x">
+              <img src="img/person.jpg" alt="Image">
+            </picture>
+            
             <div class="abt-txt">
               <h1>About Us</h1>
               <h4>
